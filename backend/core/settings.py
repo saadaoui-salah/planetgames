@@ -123,11 +123,11 @@ CHANNEL_LAYERS = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ['PGDATA'],
+        'NAME': os.environ['DBPGDATA'],
         'USER': os.environ['DBUSER'],
-        'PASSWORD': os.environ['PASSWORD'],
-        'HOST': os.environ['HOST'],
-        'PORT': os.environ['PORT'],
+        'PASSWORD': os.environ['DBPASSWORD'],
+        'HOST': os.environ['DBHOST'],
+        'PORT': os.environ['DBPORT'],
     }
 }
 
@@ -170,7 +170,8 @@ USE_I18N = True
 USE_TZ = True
 CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',  
+    'http://localhost:3000',
+    'http://planetgamesshop.vercel.app'
 ]
 
 REST_FRAMEWORK = {
