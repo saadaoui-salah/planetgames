@@ -10,7 +10,6 @@ import {
 } from "./Icons";
 import { useStateContext } from "@/context/contextProvider";
 import Image from "next/image";
-import { MEDIA_URL } from "@/roupi/utils";
 
 export const Button = ({ children, onClick, px }) => {
   return (

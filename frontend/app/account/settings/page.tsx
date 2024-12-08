@@ -4,18 +4,17 @@ import { Button } from "@/components/shared/Buttons";
 import { Title } from "@/components/shared/Title";
 import { Input } from "@/forms/Input";
 import useWithAuth from "@/app/_authRouter";
-import { MEDIA_URL } from "@/roupi/utils";
 import Head from "next/head";
 import { useEffect } from "react";
 
-export const DragAndDrop = ({ className, label, url, setSettings }) => {
+const DragAndDrop = ({ className, label, url, setSettings }) => {
   function handleDragOver(event) {
     event.preventDefault();
   }
   useEffect(() => {
     const dropzone = document.getElementById("dropzone");
     dropzone.style.backgroundImage = `url(${
-      url ? MEDIA_URL + url.replace("/media/", "") : ''
+      url
     })`;
     dropzone.style.backgroundSize = "100%";
   }, [url]);

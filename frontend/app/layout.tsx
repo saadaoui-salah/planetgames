@@ -1,6 +1,7 @@
 import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 import { ContextProvider } from "@/context/contextProvider";
+import { ReactNode } from "react";
 
 export const metadata = {
   title: "Home | PlanetGames",
@@ -8,8 +9,10 @@ export const metadata = {
 };
 
 
-
-export default function RootLayout({ children }) {
+type LayoutProps = {
+  children: ReactNode; // Type the children prop
+};
+export default function RootLayout({ children }: LayoutProps) {
   return (
     <html lang="en">
       <head>
