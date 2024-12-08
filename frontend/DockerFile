@@ -1,0 +1,37 @@
+# Stage 1: Build the app
+FROM node:18 AS builder
+
+# Set working directory
+WORKDIR /app
+
+# Copy package.json and package-lock.json
+COPY package.json package-lock.json ./
+
+# Install dependencies (production only)
+RUN npm install --production
+
+# Copy the Next.js app source code
+COPY . .
+
+# Build the app for production
+RUN npm run build
+
+# Stage 2: Serve the app
+FROM node:18-slim
+
+# Set working directory for the runtime image
+WORKDIR /app
+
+# Copy only the necessary files from the build stage
+COPY --from=builder /app/package.json /app/package-lock.json ./
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/public ./public
+
+# Install only production dependencies
+RUN npm install --production
+
+# Expose the port the app will run on
+EXPOSE 3000
+
+# Start the Next.js production server
+CMD ["npm", "run", "start"]

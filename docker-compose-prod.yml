@@ -1,0 +1,70 @@
+version: '3.8'
+
+services:
+  web-http:
+    image: planetgames:latest
+    container_name: http_server
+    build:
+      context: ./backend
+      dockerfile: DockerFile
+    command: ["gunicorn", "--bind", "0.0.0.0:8000", "--reload", "core.wsgi:application"]
+    environment:
+      - DJANGO_SETTINGS_MODULE=core.settings
+    volumes:
+      - ./backend:/app
+    ports:
+      - "8000:8000"  # WebSocket (optional, depending on your config)
+    depends_on:
+      - db
+      - redis
+    networks:
+      - app_network
+
+  web-ws:
+    image: planetgames:latest
+    container_name: ws_server
+    build:
+      context: ./backend
+      dockerfile: DockerFile
+    command: ["uvicorn", "core.asgi:application", "--reload", "--host", "0.0.0.0", "--port", "8001"]
+    environment:
+      - DJANGO_SETTINGS_MODULE=core.settings
+    volumes:
+      - ./backend:/app
+    ports:
+      - "8001:8001"  
+    depends_on:
+      - db
+      - redis
+    networks:
+      - app_network
+
+  redis:
+    image: redis:latest
+    container_name: redis
+    networks:
+      - app_network
+
+  web-front:
+    image: planetgames-frontend:latest
+    build:
+      context: ./frontend
+      dockerfile: DockerFile
+    command: ["yarn", "dev"]
+    container_name: planetgames_frontend
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+    volumes:
+      - ./frontend:/frontend
+    restart: always
+
+
+volumes:
+  postgres_data:
+  
+
+networks:
+  app_network:
+    driver: bridge

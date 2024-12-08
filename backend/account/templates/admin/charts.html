@@ -1,0 +1,59 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+  <h1>Analytics</h1>
+  <div >
+    <canvas id="visitors" width="400" height="200"></canvas>
+    <canvas style="margin-top: 100px;" id="orders" width="400" height="200"></canvas>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var ordersCtx = document.getElementById('orders').getContext('2d');
+      var visitorsCtx = document.getElementById('visitors').getContext('2d');
+      var orders = {{ orders|safe }};
+      var visitors = {{ visitors|safe }};
+      console.log(orders)
+      new Chart(ordersCtx, {
+        type: 'bar', 
+        data: {
+          labels: Object.keys(orders),
+          datasets: [{
+            label: 'Orders',
+            data: Object.values(orders),
+            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+            borderColor: 'rgba(75, 192, 192, 1)',
+            borderWidth: 1
+          }]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+       new Chart(visitorsCtx, {
+        type: 'line', // or 'line', 'pie', etc.
+        data: {
+          labels: visitors?.date,
+          datasets: [{
+            label: 'Visitors',
+            data: visitors?.unique_visitors,
+            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+            borderColor: 'rgba(75, 192, 192, 1)',
+            borderWidth: 1
+          }]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          }
+        }
+      });
+    });
+  </script>
+{% endblock %}

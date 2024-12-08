@@ -1,0 +1,79 @@
+version: '3.8'
+
+services:
+  web-http:
+    image: planetgames-api:latest
+    container_name: planetgames_http_server
+    build:
+      context: ./backend
+      dockerfile: DockerFile
+    #command: ["gunicorn", "--bind", "0.0.0.0:8000", "--reload", "core.wsgi:application"]
+    command: ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+    volumes:
+      - ./backend:/app
+    ports:
+      - "8000:8000"  # WebSocket (optional, depending on your config)
+    depends_on:
+      - db
+      - redis
+    networks:
+      - app_network
+
+  web-ws:
+    image: planetgames-api:latest
+    container_name: planetgames_ws_server
+    build:
+      context: ./backend
+      dockerfile: DockerFile
+    command: ["uvicorn", "core.asgi:application", "--reload", "--host", "0.0.0.0", "--port", "8001"]
+    volumes:
+      - ./backend:/app
+    ports:
+      - "8001:8001"  
+    depends_on:
+      - db
+      - redis
+    networks:
+      - app_network
+
+  db:
+    image: postgres:13
+    container_name: postgres_db
+    environment:
+      POSTGRES_DB: mydb
+      POSTGRES_USER: myuser
+      POSTGRES_PASSWORD: mypassword
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - app_network
+
+  redis:
+    image: redis:latest
+    container_name: redis
+    networks:
+      - app_network
+
+  web-front:
+    image: planetgames-frontend:latest
+    build:
+      context: ./frontend
+      dockerfile: DockerFile.dev
+    command: ["yarn", "dev"]
+    container_name: planetgames_frontend
+    environment:
+      - REACT_APP_WS_API_URL=ws://127.0.0.1:8001
+      - REACT_APP_API_URL=http://127.0.0.1:8001
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/frontend
+    restart: always
+
+volumes:
+  postgres_data:
+  
+
+networks:
+  app_network:
+    driver: bridge

@@ -1,0 +1,153 @@
+{% extends "admin/base_site.html" %}
+{% block content %}
+<script src="https://cdn.tailwindcss.com"></script>
+  <h1 class="font-bold text-xl">Live Chat</h1>
+<div class="flex h-[calc(100vh-200px)]">
+
+    <!-- Left Section (Categories) -->
+    <div class="w-1/4 bg-white border-r border-gray-300 p-4 space-y-4">
+        <h2 class="text-xl font-semibold">Chat Categories</h2>
+
+        <!-- In Progress Category -->
+        <details class="category">
+            <summary class="font-medium text-lg text-gray-700">In Progress</summary>
+            <ul id="in-p" class="space-y-2 mt-2"></ul>
+        </details>
+
+        <!-- Order Created Category -->
+        <details class="category">
+            <summary class="font-medium text-lg text-gray-700">Order Created</summary>
+            <ul id="order" class="space-y-2 mt-2"></ul>
+        </details>
+
+        <!-- Not Seen Rooms Category -->
+        <details class="category">
+            <summary class="font-medium text-lg text-gray-700">New Messages</summary>
+            <ul id="new" class="space-y-2 mt-2">
+            </ul>
+        </details>
+    </div>
+  <script>
+    const socketRooms = new WebSocket('ws://127.0.0.1:8001/ws/rooms/');
+    socketRooms.onopen = () => {
+      console.log("WebSocket connection established.");
+    };
+    const updateRoomStatus = (userID) =>{
+      socketRooms.send(JSON.stringify({user_id: userID}))
+    }
+
+    const update_room = (room) => {
+      let html = `
+        <li id="${room.id}" onclick="openChat('${room.user_id}', '${room.user__full_name}')" class="flex cursor-pointer justify-between items-center p-2 bg-blue-100 rounded-md">
+          <span>${room.user__full_name}</span>
+        </li>
+          `
+      let roomElement = document.getElementById(room.id)
+      if (roomElement){
+        roomElement.remove()
+      }
+      if (room.status.toLowerCase() === 'in progress'){
+        let category = document.getElementById('in-p')
+        category.innerHTML += html
+      } 
+      if (room.status.toLowerCase() === 'order created'){
+        let category = document.getElementById('order')
+        category.innerHTML += html
+      }if (room.status.toLowerCase() === 'new message'){
+        let category = document.getElementById('new')
+        category.innerHTML += html
+      }
+    }
+    socketRooms.onmessage = (event) => {
+      let data = JSON.parse(event.data)
+      if (data?.rooms) {
+        data.rooms.map((room) => update_room(room))
+      }
+      if (data?.data) {
+        update_room(data?.data)
+      }
+    };
+    socketRooms.onerror = (error) => {
+      console.error("WebSocket error:", error);
+    };
+
+    socketRooms.onclose = () => {
+      console.log("WebSocket connection closed.");
+    };
+  </script>
+    <!-- Right Section (Chat Component) -->
+    <div class="flex-1 bg-white p-4">
+      
+      <div id="chatRoom" class="chat-box bg-gray-50 border flex flex-col justify-between rounded-lg p-4 space-y-4 h-full">
+    </div>
+
+</div>
+  <script>
+   var socket = null
+    const create_message = (message) => {
+      let html = `
+            <div class="message ${message.sender_id ? '' : 'flex-row-reverse'} flex items-start">
+              <img src="${message.image}" alt="user" class="w-9 h-9 mx-2 rounded-full">
+              <div class="message-content bg-blue-100 p-2 rounded-lg text-sm max-w-xs">
+                <p>${message.message}</p>
+              </div>
+            </div>
+          `
+      let chat = document.getElementById('chat')
+      chat.innerHTML += html
+      chat.scrollTop = chat.scrollHeight
+    }
+   const openChat = (id, name)=>{
+     if (document.getElementById(`room-${id}`)){
+       return
+     }
+     if (socket){
+       socket.close()
+     }
+    let chatComp = document.getElementById('chatRoom')
+    chatComp.innerHTML = `
+    <h2 id='room-${id}' class="text-xl border-b pb-4 font-semibold">${name}</h2>
+      <div id="chat" class="overflow-y-auto space-y-4 pb-4"></div>
+    <div id='room-${id}' class="input-area flex items-center space-x-2 mt-4">
+      <textarea onclick="updateRoomStatus('${id}')" id="message" type="text" class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300" placeholder="Type a message..."></textarea>
+      <button onclick="sendMessage()" class="bg-blue-500 text-white p-2 rounded-lg">Send</button>
+    </div>
+    ` 
+    socket = new WebSocket(`ws://127.0.0.1:8001/ws/chat/${id}/`);
+    socket.onopen = () => {
+      console.log("WebSocket connection established.");
+    };
+   
+    // Message received
+    socket.onmessage = (event) => {
+      let data = JSON.parse(event.data)
+      if (data?.messages) {
+        data.messages.map((message) => create_message(message))
+      }
+      if (data?.data) {
+        create_message(data?.data)
+      }
+    };
+    // Handle errors
+    socket.onerror = (error) => {
+      console.error("WebSocket error:", error);
+    };
+
+
+    // Connection closed
+    socket.onclose = () => {
+      console.log("WebSocket connection closed.");
+    };}
+
+     var sendMessage = () => {
+      let message = document.getElementById('message')
+      if (socket && socket.readyState === WebSocket.OPEN && message.value){
+        socket.send(JSON.stringify({
+          msg: message.value,
+          reciever: 3
+      }))
+      message.value = ''
+    }
+    }
+ </script>
+{% endblock %}
