@@ -7,7 +7,7 @@ services:
     build:
       context: ./backend
       dockerfile: DockerFile
-    #command: ["gunicorn", "--bind", "0.0.0.0:8000", "--reload", "core.wsgi:application"]
+    #command: gunicorn --bind 0.0.0.0:8000 --reload core.wsgi:application
     command: ["python", "manage.py", "runserver", "0.0.0.0:8000"]
     volumes:
       - ./backend:/app
