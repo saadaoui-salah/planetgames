@@ -1,4 +1,4 @@
-const API_URL = process.env.REACT_APP_API_URL
+export const API_URL = 'https://dashboard-web-copy-production.up.railway.app/api'
 
 export const useGET = async (url: string, conf: { headers?: object; params?: object; }) => {
   const get: object = {

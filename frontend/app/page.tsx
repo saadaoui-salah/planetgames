@@ -58,7 +58,7 @@ const Chat = ()=> {
   const chatRef = useRef()
   const chatOpenRef = useRef()
   const [messages, setMessage] = useState<[]>([]) 
-  const {sendMessage} = useWebSocket(`${process.env.REACT_APP_WS_API_URL}/chat/${profile.id}/`, {
+  const {sendMessage} = useWebSocket(`wss://dashboard-web-copy-production.up.railway.app/ws/chat/${profile.id}/`, {
     onMessage: (newMessage: object) => setMessage((messages) => [...messages, newMessage]),
     onMessages: (oldMessages: []) => setMessage((messages) =>[...oldMessages, ...messages])  
   })
