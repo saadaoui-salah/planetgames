@@ -175,8 +175,6 @@ CORS_ALLOWED_ORIGINS = [
     'https://dashboard-web-copy-production.up.railway.app'
 ]
 CSRF_TRUSTED_ORIGINS = [
-    'http://localhost:3000',
-    'http://planetgamesshop.vercel.app',
     'https://dashboard-web-copy-production.up.railway.app',
 ]
 
