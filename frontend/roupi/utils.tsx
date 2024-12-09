@@ -1,4 +1,4 @@
-export const API_URL = 'https://django-server-production-281d.up.railway.app/api'
+export const API_URL = 'https://dashboard-web-copy-production.up.railway.app/api'
 
 export const useGET = async (url: string, conf: { headers?: object; params?: object; }) => {
   const get: object = {
