@@ -37,7 +37,7 @@ class UpdateSettingsView(APIView):
             "id": user.id,
             "email": user.email,
             "phone_number": user.phone_number,
-            "image": user.image.url,
+            "image": user.image.url if user.image else None,
         }
         return Response({"type": "success", "data": data})
 
@@ -91,7 +91,7 @@ class LoginView(APIView):
                 "full_name": user.full_name,
                 "email": user.email,
                 "phone_number": user.phone_number,
-                "image": user.image.url,
+                "image": user.image.url if user.image else None,
             }
             response = Response(response_data)
             set_cookies(refresh, response)

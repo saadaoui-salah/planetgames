@@ -1,358 +1,5 @@
 [
     {
-        "label": "django.utils.timezone",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.utils.timezone",
-        "description": "django.utils.timezone",
-        "detail": "django.utils.timezone",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "django.db.models.deletion",
         "kind": 6,
         "isExtraImport": true,
@@ -362,11 +9,12 @@
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
+        "label": "django.utils.timezone",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.conf",
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
         "documentation": {}
     },
     {
@@ -407,6 +55,134 @@
         "description": "django.conf",
         "isExtraImport": true,
         "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
         "documentation": {}
     },
     {
@@ -1011,6 +787,14 @@
         "documentation": {}
     },
     {
+        "label": "Category",
+        "importPath": "product.models",
+        "description": "product.models",
+        "isExtraImport": true,
+        "detail": "product.models",
+        "documentation": {}
+    },
+    {
         "label": "render",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
@@ -1064,6 +848,54 @@
         "description": "asgiref.sync",
         "isExtraImport": true,
         "detail": "asgiref.sync",
+        "documentation": {}
+    },
+    {
+        "label": "async_to_sync",
+        "importPath": "asgiref.sync",
+        "description": "asgiref.sync",
+        "isExtraImport": true,
+        "detail": "asgiref.sync",
+        "documentation": {}
+    },
+    {
+        "label": "pre_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "post_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "receiver",
+        "importPath": "django.dispatch",
+        "description": "django.dispatch",
+        "isExtraImport": true,
+        "detail": "django.dispatch",
+        "documentation": {}
+    },
+    {
+        "label": "receiver",
+        "importPath": "django.dispatch",
+        "description": "django.dispatch",
+        "isExtraImport": true,
+        "detail": "django.dispatch",
+        "documentation": {}
+    },
+    {
+        "label": "get_channel_layer",
+        "importPath": "channels.layers",
+        "description": "channels.layers",
+        "isExtraImport": true,
+        "detail": "channels.layers",
         "documentation": {}
     },
     {
@@ -1157,6 +989,14 @@
         "documentation": {}
     },
     {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "admin_chart_view",
         "importPath": "account.views",
         "description": "account.views",
@@ -1186,6 +1026,57 @@
         "description": "django.core.wsgi",
         "isExtraImport": true,
         "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "pformat",
+        "importPath": "pprint",
+        "description": "pprint",
+        "isExtraImport": true,
+        "detail": "pprint",
+        "documentation": {}
+    },
+    {
+        "label": "jmespath",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "exceptions",
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "isExtraImport": true,
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "Room",
+        "importPath": "chat.models",
+        "description": "chat.models",
+        "isExtraImport": true,
+        "detail": "chat.models",
         "documentation": {}
     },
     {
@@ -1245,15 +1136,6 @@
         "documentation": {}
     },
     {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
         "label": "stringify",
         "importPath": "flatted",
         "description": "flatted",
@@ -1279,33 +1161,6 @@
         "documentation": {}
     },
     {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "backend.account.migrations.0002_customuser_phone_number",
-        "description": "backend.account.migrations.0002_customuser_phone_number",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='customuser',\n            name='phone_number',\n            field=models.CharField(default=2, max_length=50),\n            preserve_default=False,",
-        "detail": "backend.account.migrations.0002_customuser_phone_number",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "backend.account.migrations.0003_rename_first_name_customuser_full_name_and_more",
-        "description": "backend.account.migrations.0003_rename_first_name_customuser_full_name_and_more",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0002_customuser_phone_number'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='customuser',\n            old_name='first_name',\n            new_name='full_name',\n        ),",
-        "detail": "backend.account.migrations.0003_rename_first_name_customuser_full_name_and_more",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "backend.account.migrations.0004_visitor_visit",
-        "description": "backend.account.migrations.0004_visitor_visit",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0003_rename_first_name_customuser_full_name_and_more'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Visitor',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('user', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, to=settings.AUTH_USER_MODEL)),",
-        "detail": "backend.account.migrations.0004_visitor_visit",
-        "documentation": {}
-    },
-    {
         "label": "UserAdmin",
         "kind": 6,
         "importPath": "backend.account.admin",
@@ -1328,7 +1183,7 @@
         "kind": 6,
         "importPath": "backend.account.middleware",
         "description": "backend.account.middleware",
-        "peekOfCode": "class TokenToUserMiddleware:\n    def __init__(self, get_response):\n        self.get_response = get_response\n    def __call__(self, request):\n        refresh = False\n        user, refresh = AccessTokenBackend().authenticate(request)\n        print(\"hey\")\n        try:\n            if request.body:\n                request.data = json.loads(request.body)",
+        "peekOfCode": "class TokenToUserMiddleware:\n    def __init__(self, get_response):\n        self.get_response = get_response\n    def __call__(self, request):\n        if 'admin' in request.path:\n            return self.get_response(request)\n        refresh = False\n        user, refresh = AccessTokenBackend().authenticate(request)\n        try:\n            if request.body:",
         "detail": "backend.account.middleware",
         "documentation": {}
     },
@@ -1346,7 +1201,7 @@
         "kind": 6,
         "importPath": "backend.account.models",
         "description": "backend.account.models",
-        "peekOfCode": "class CustomUser(AbstractBaseUser, PermissionsMixin):\n    USER_TYPE_CHOICES = [\n        ('admin', 'Admin'),\n        ('seller', 'seller'),\n        ('client', 'client'),\n    ]\n    email = models.EmailField(unique=True)\n    full_name = models.CharField(max_length=30, blank=True)\n    user_type = models.CharField(max_length=30, choices=USER_TYPE_CHOICES)\n    is_active = models.BooleanField(default=True)",
+        "peekOfCode": "class CustomUser(AbstractBaseUser, PermissionsMixin):\n    USER_TYPE_CHOICES = [\n        ('admin', 'Admin'),\n        ('seller', 'seller'),\n        ('client', 'client'),\n    ]\n    email = models.EmailField(unique=True)\n    full_name = models.CharField(max_length=30, blank=True)\n    image = models.FileField(upload_to='users/', null=True, blank=True)\n    user_type = models.CharField(max_length=30, choices=USER_TYPE_CHOICES)",
         "detail": "backend.account.models",
         "documentation": {}
     },
@@ -1445,26 +1300,8 @@
         "kind": 6,
         "importPath": "backend.chat.migrations.0001_initial",
         "description": "backend.chat.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Message',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Room',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
         "detail": "backend.chat.migrations.0001_initial",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "backend.chat.migrations.0002_room_message_room",
-        "description": "backend.chat.migrations.0002_room_message_room",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('chat', '0001_initial'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Room',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
-        "detail": "backend.chat.migrations.0002_room_message_room",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "backend.chat.migrations.0003_rename_user_2_room_user_remove_room_user_1_and_more",
-        "description": "backend.chat.migrations.0003_rename_user_2_room_user_remove_room_user_1_and_more",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('chat', '0002_room_message_room'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='room',\n            old_name='user_2',\n            new_name='user',\n        ),",
-        "detail": "backend.chat.migrations.0003_rename_user_2_room_user_remove_room_user_1_and_more",
         "documentation": {}
     },
     {
@@ -1481,7 +1318,16 @@
         "kind": 6,
         "importPath": "backend.chat.consumers",
         "description": "backend.chat.consumers",
-        "peekOfCode": "class ChatConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.room_name = self.scope['url_route']['kwargs']['user_id']\n        self.room_group_name = 'chat_%s' % self.room_name\n        await self.channel_layer.group_add(\n            self.room_group_name,\n            self.channel_name\n        )\n        messages = await sync_to_async(self.list_images)(self.room_name)\n        await self.channel_layer.group_send(",
+        "peekOfCode": "class ChatConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.room_name = self.scope['url_route']['kwargs']['user_id']\n        self.room_group_name = 'chat_%s' % self.room_name\n        await self.channel_layer.group_add(\n            self.room_group_name,\n            self.channel_name\n        )\n        messages = await sync_to_async(self.list_messages)(self.room_name)\n        await self.channel_layer.group_send(",
+        "detail": "backend.chat.consumers",
+        "documentation": {}
+    },
+    {
+        "label": "RoomConsumer",
+        "kind": 6,
+        "importPath": "backend.chat.consumers",
+        "description": "backend.chat.consumers",
+        "peekOfCode": "class RoomConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.room_group_name = 'rooms'\n        await self.channel_layer.group_add(\n            self.room_group_name,\n            self.channel_name\n        )\n        rooms = await sync_to_async(self.list_rooms)()\n        await self.channel_layer.group_send(\n            self.room_group_name,",
         "detail": "backend.chat.consumers",
         "documentation": {}
     },
@@ -1490,7 +1336,7 @@
         "kind": 5,
         "importPath": "backend.chat.consumers",
         "description": "backend.chat.consumers",
-        "peekOfCode": "User = get_user_model() \nclass ChatConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.room_name = self.scope['url_route']['kwargs']['user_id']\n        self.room_group_name = 'chat_%s' % self.room_name\n        await self.channel_layer.group_add(\n            self.room_group_name,\n            self.channel_name\n        )\n        messages = await sync_to_async(self.list_images)(self.room_name)",
+        "peekOfCode": "User = get_user_model() \nclass ChatConsumer(AsyncWebsocketConsumer):\n    async def connect(self):\n        self.room_name = self.scope['url_route']['kwargs']['user_id']\n        self.room_group_name = 'chat_%s' % self.room_name\n        await self.channel_layer.group_add(\n            self.room_group_name,\n            self.channel_name\n        )\n        messages = await sync_to_async(self.list_messages)(self.room_name)",
         "detail": "backend.chat.consumers",
         "documentation": {}
     },
@@ -1508,7 +1354,16 @@
         "kind": 6,
         "importPath": "backend.chat.models",
         "description": "backend.chat.models",
-        "peekOfCode": "class Message(models.Model):\n    room = models.ForeignKey(Room, on_delete=models.CASCADE)\n    message = models.TextField()\n    reciever = models.ForeignKey(User, on_delete=models.SET_NULL, related_name='reciever', null=True)\n    sender = models.ForeignKey(User, on_delete=models.SET_NULL, related_name='sender', null=True)\n    created_at = models.DateTimeField(auto_now_add=True)\n    seen = models.BooleanField(default=False)",
+        "peekOfCode": "class Message(models.Model):\n    room = models.ForeignKey(Room, on_delete=models.CASCADE)\n    message = models.TextField()\n    reciever = models.ForeignKey(User, on_delete=models.SET_NULL, related_name='reciever', null=True)\n    sender = models.ForeignKey(User, on_delete=models.SET_NULL, related_name='sender', null=True)\n    created_at = models.DateTimeField(auto_now_add=True)\n    seen = models.BooleanField(default=False)\n@receiver(pre_save, sender=Room)\ndef detect_updated_fields(sender, instance, **kwargs):\n    if instance.pk:  # Ensure this is not a new instance",
+        "detail": "backend.chat.models",
+        "documentation": {}
+    },
+    {
+        "label": "detect_updated_fields",
+        "kind": 2,
+        "importPath": "backend.chat.models",
+        "description": "backend.chat.models",
+        "peekOfCode": "def detect_updated_fields(sender, instance, **kwargs):\n    if instance.pk:  # Ensure this is not a new instance\n        # Fetch the original instance from the database\n        original = Room.objects.get(pk=instance.pk)\n        original_value = getattr(original, 'status')\n        new_value = getattr(instance, 'status')\n        if original_value != new_value:\n            channel_layer = get_channel_layer()\n            # Extract data from kwargs\n            # Send the message to the group",
         "detail": "backend.chat.models",
         "documentation": {}
     },
@@ -1526,7 +1381,7 @@
         "kind": 5,
         "importPath": "backend.chat.urls",
         "description": "backend.chat.urls",
-        "peekOfCode": "urlpatterns = [\n]\nfrom .consumers import ChatConsumer\nwebsocket_urlpatterns = [\n    re_path(r'ws/chat/(?P<user_id>\\w+)/$', ChatConsumer.as_asgi()),\n]",
+        "peekOfCode": "urlpatterns = [\n]\nfrom .consumers import ChatConsumer, RoomConsumer\nwebsocket_urlpatterns = [\n    re_path(r'ws/chat/(?P<user_id>\\w+)/$', ChatConsumer.as_asgi()),\n    path('ws/rooms/', RoomConsumer.as_asgi()),\n]",
         "detail": "backend.chat.urls",
         "documentation": {}
     },
@@ -1535,7 +1390,7 @@
         "kind": 5,
         "importPath": "backend.chat.urls",
         "description": "backend.chat.urls",
-        "peekOfCode": "websocket_urlpatterns = [\n    re_path(r'ws/chat/(?P<user_id>\\w+)/$', ChatConsumer.as_asgi()),\n]",
+        "peekOfCode": "websocket_urlpatterns = [\n    re_path(r'ws/chat/(?P<user_id>\\w+)/$', ChatConsumer.as_asgi()),\n    path('ws/rooms/', RoomConsumer.as_asgi()),\n]",
         "detail": "backend.chat.urls",
         "documentation": {}
     },
@@ -1562,7 +1417,7 @@
         "kind": 6,
         "importPath": "backend.core.backend",
         "description": "backend.core.backend",
-        "peekOfCode": "class AccessTokenBackend(JWTAuthentication):\n    def authenticate(self, request):\n        try:\n            token = request.COOKIES.get('pg_access','')\n            timestamp = request.COOKIES.get('pg_exp','')\n            refresh = request.COOKIES.get('pg_refresh','')\n            exp = datetime.fromtimestamp(int(timestamp))\n            if not refresh or not token:\n                return (None, None)\n            if exp > datetime.now() and token:",
+        "peekOfCode": "class AccessTokenBackend(JWTAuthentication):\n    def authenticate(self, request):\n        token = request.COOKIES.get('pg_access','')\n        timestamp = request.COOKIES.get('pg_exp','')\n        refresh = request.COOKIES.get('pg_refresh','')\n        try:\n            exp = datetime.fromtimestamp(int(timestamp))\n            if not refresh or not token:\n                return (None, None)\n            if exp > datetime.now() and token:",
         "detail": "backend.core.backend",
         "documentation": {}
     },
@@ -1571,7 +1426,7 @@
         "kind": 5,
         "importPath": "backend.core.backend",
         "description": "backend.core.backend",
-        "peekOfCode": "User = get_user_model()\nclass AccessTokenBackend(JWTAuthentication):\n    def authenticate(self, request):\n        try:\n            token = request.COOKIES.get('pg_access','')\n            timestamp = request.COOKIES.get('pg_exp','')\n            refresh = request.COOKIES.get('pg_refresh','')\n            exp = datetime.fromtimestamp(int(timestamp))\n            if not refresh or not token:\n                return (None, None)",
+        "peekOfCode": "User = get_user_model()\nclass AccessTokenBackend(JWTAuthentication):\n    def authenticate(self, request):\n        token = request.COOKIES.get('pg_access','')\n        timestamp = request.COOKIES.get('pg_exp','')\n        refresh = request.COOKIES.get('pg_refresh','')\n        try:\n            exp = datetime.fromtimestamp(int(timestamp))\n            if not refresh or not token:\n                return (None, None)",
         "detail": "backend.core.backend",
         "documentation": {}
     },
@@ -1580,7 +1435,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-vr^+wy!yztu5a*3caizrw4^5ybf9%-usdy#12h*ovss=dd+(xh'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nREST_FRAMEWORK = {",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = os.environ['SECRET_KEY']\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = bool(os.environ['DEBUG'])\nALLOWED_HOSTS = ['*']\n# Application definition\nREST_FRAMEWORK = {",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1589,7 +1444,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-vr^+wy!yztu5a*3caizrw4^5ybf9%-usdy#12h*ovss=dd+(xh'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nREST_FRAMEWORK = {\n    'DEFAULT_RENDERER_CLASSES': [\n        'rest_framework.renderers.JSONRenderer',\n    ],\n}",
+        "peekOfCode": "SECRET_KEY = os.environ['SECRET_KEY']\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = bool(os.environ['DEBUG'])\nALLOWED_HOSTS = ['*']\n# Application definition\nREST_FRAMEWORK = {\n    'DEFAULT_RENDERER_CLASSES': [\n        'rest_framework.renderers.JSONRenderer',\n    ],\n}",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1598,7 +1453,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nREST_FRAMEWORK = {\n    'DEFAULT_RENDERER_CLASSES': [\n        'rest_framework.renderers.JSONRenderer',\n    ],\n}\nINSTALLED_APPS = [\n    'django.contrib.admin',",
+        "peekOfCode": "DEBUG = bool(os.environ['DEBUG'])\nALLOWED_HOSTS = ['*']\n# Application definition\nREST_FRAMEWORK = {\n    'DEFAULT_RENDERER_CLASSES': [\n        'rest_framework.renderers.JSONRenderer',\n    ],\n}\nINSTALLED_APPS = [\n    'django.contrib.admin',",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1607,7 +1462,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nREST_FRAMEWORK = {\n    'DEFAULT_RENDERER_CLASSES': [\n        'rest_framework.renderers.JSONRenderer',\n    ],\n}\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\n# Application definition\nREST_FRAMEWORK = {\n    'DEFAULT_RENDERER_CLASSES': [\n        'rest_framework.renderers.JSONRenderer',\n    ],\n}\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1625,7 +1480,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'channels_redis',\n    'corsheaders',\n    'channels',",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'corsheaders',\n    'channels_redis',\n    'channels',",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1639,11 +1494,92 @@
         "documentation": {}
     },
     {
-        "label": "ROOT_URLCONF",
+        "label": "STORAGES",
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "ROOT_URLCONF = 'core.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates',],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "peekOfCode": "STORAGES = {\n    \"default\": {\n        \"BACKEND\": \"storages.backends.s3.S3Storage\",\n    },\n     \"staticfiles\": {\n        \"BACKEND\": \"storages.backends.s3boto3.S3Boto3Storage\",\n    },\n}\nDEFAULT_FILE_STORAGE = os.environ['DEFAULT_FILE_STORAGE']\nAWS_ACCESS_KEY_ID = os.environ['AWS_ACCESS_KEY_ID']",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_FILE_STORAGE",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "DEFAULT_FILE_STORAGE = os.environ['DEFAULT_FILE_STORAGE']\nAWS_ACCESS_KEY_ID = os.environ['AWS_ACCESS_KEY_ID']\nAWS_SECRET_ACCESS_KEY = os.environ['AWS_SECRET_ACCESS_KEY']\nAWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']\nAWS_S3_REGION_NAME = os.environ['AWS_S3_REGION_NAME']\nAWS_QUERYSTRING_AUTH = False\nAWS_S3_CUSTOM_DOMAIN = f\"{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com\"\nSTATIC_URL = f\"https://{AWS_S3_CUSTOM_DOMAIN}/static/\"\nMEDIA_URL = f\"https://{AWS_S3_CUSTOM_DOMAIN}/\"\nTEMPLATES = [",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AWS_ACCESS_KEY_ID",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "AWS_ACCESS_KEY_ID = os.environ['AWS_ACCESS_KEY_ID']\nAWS_SECRET_ACCESS_KEY = os.environ['AWS_SECRET_ACCESS_KEY']\nAWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']\nAWS_S3_REGION_NAME = os.environ['AWS_S3_REGION_NAME']\nAWS_QUERYSTRING_AUTH = False\nAWS_S3_CUSTOM_DOMAIN = f\"{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com\"\nSTATIC_URL = f\"https://{AWS_S3_CUSTOM_DOMAIN}/static/\"\nMEDIA_URL = f\"https://{AWS_S3_CUSTOM_DOMAIN}/\"\nTEMPLATES = [\n    {",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AWS_SECRET_ACCESS_KEY",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "AWS_SECRET_ACCESS_KEY = os.environ['AWS_SECRET_ACCESS_KEY']\nAWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']\nAWS_S3_REGION_NAME = os.environ['AWS_S3_REGION_NAME']\nAWS_QUERYSTRING_AUTH = False\nAWS_S3_CUSTOM_DOMAIN = f\"{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com\"\nSTATIC_URL = f\"https://{AWS_S3_CUSTOM_DOMAIN}/static/\"\nMEDIA_URL = f\"https://{AWS_S3_CUSTOM_DOMAIN}/\"\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AWS_STORAGE_BUCKET_NAME",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "AWS_STORAGE_BUCKET_NAME = os.environ['AWS_STORAGE_BUCKET_NAME']\nAWS_S3_REGION_NAME = os.environ['AWS_S3_REGION_NAME']\nAWS_QUERYSTRING_AUTH = False\nAWS_S3_CUSTOM_DOMAIN = f\"{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com\"\nSTATIC_URL = f\"https://{AWS_S3_CUSTOM_DOMAIN}/static/\"\nMEDIA_URL = f\"https://{AWS_S3_CUSTOM_DOMAIN}/\"\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates',],",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AWS_S3_REGION_NAME",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "AWS_S3_REGION_NAME = os.environ['AWS_S3_REGION_NAME']\nAWS_QUERYSTRING_AUTH = False\nAWS_S3_CUSTOM_DOMAIN = f\"{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com\"\nSTATIC_URL = f\"https://{AWS_S3_CUSTOM_DOMAIN}/static/\"\nMEDIA_URL = f\"https://{AWS_S3_CUSTOM_DOMAIN}/\"\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates',],\n        'APP_DIRS': True,",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AWS_QUERYSTRING_AUTH",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "AWS_QUERYSTRING_AUTH = False\nAWS_S3_CUSTOM_DOMAIN = f\"{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com\"\nSTATIC_URL = f\"https://{AWS_S3_CUSTOM_DOMAIN}/static/\"\nMEDIA_URL = f\"https://{AWS_S3_CUSTOM_DOMAIN}/\"\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates',],\n        'APP_DIRS': True,\n        'OPTIONS': {",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AWS_S3_CUSTOM_DOMAIN",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "AWS_S3_CUSTOM_DOMAIN = f\"{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com\"\nSTATIC_URL = f\"https://{AWS_S3_CUSTOM_DOMAIN}/static/\"\nMEDIA_URL = f\"https://{AWS_S3_CUSTOM_DOMAIN}/\"\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates',],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "STATIC_URL = f\"https://{AWS_S3_CUSTOM_DOMAIN}/static/\"\nMEDIA_URL = f\"https://{AWS_S3_CUSTOM_DOMAIN}/\"\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates',],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "MEDIA_URL = f\"https://{AWS_S3_CUSTOM_DOMAIN}/\"\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates',],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1657,11 +1593,29 @@
         "documentation": {}
     },
     {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "ROOT_URLCONF = 'core.urls'\nAWS_DEFAULT_ACL = 'public-read'\nWSGI_APPLICATION = 'core.wsgi.application'\nASGI_APPLICATION = 'core.asgi.application'\n# Set up channel layers with Redis\nCHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',\n        'CONFIG': {\n            \"hosts\": [os.environ['REDIS_URL']],",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AWS_DEFAULT_ACL",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "AWS_DEFAULT_ACL = 'public-read'\nWSGI_APPLICATION = 'core.wsgi.application'\nASGI_APPLICATION = 'core.asgi.application'\n# Set up channel layers with Redis\nCHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',\n        'CONFIG': {\n            \"hosts\": [os.environ['REDIS_URL']],\n        },",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
         "label": "WSGI_APPLICATION",
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'core.wsgi.application'\nASGI_APPLICATION = 'core.asgi.application'\n# Set up channel layers with Redis\nCHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',\n        'CONFIG': {\n            \"hosts\": [(\"redis\", 6379)],\n        },\n    },",
+        "peekOfCode": "WSGI_APPLICATION = 'core.wsgi.application'\nASGI_APPLICATION = 'core.asgi.application'\n# Set up channel layers with Redis\nCHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',\n        'CONFIG': {\n            \"hosts\": [os.environ['REDIS_URL']],\n        },\n    },",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1670,7 +1624,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "ASGI_APPLICATION = 'core.asgi.application'\n# Set up channel layers with Redis\nCHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',\n        'CONFIG': {\n            \"hosts\": [(\"redis\", 6379)],\n        },\n    },\n    'ROUTING': 'ws.routing.application',",
+        "peekOfCode": "ASGI_APPLICATION = 'core.asgi.application'\n# Set up channel layers with Redis\nCHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',\n        'CONFIG': {\n            \"hosts\": [os.environ['REDIS_URL']],\n        },\n    },\n    'ROUTING': 'ws.routing.application',",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1679,7 +1633,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "CHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',\n        'CONFIG': {\n            \"hosts\": [(\"redis\", 6379)],\n        },\n    },\n    'ROUTING': 'ws.routing.application',\n}\n# Database",
+        "peekOfCode": "CHANNEL_LAYERS = {\n    'default': {\n        'BACKEND': 'channels_redis.core.RedisChannelLayer',\n        'CONFIG': {\n            \"hosts\": [os.environ['REDIS_URL']],\n        },\n    },\n    'ROUTING': 'ws.routing.application',\n}\n# Database",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1688,7 +1642,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': os.environ['DBPGDATA'],\n        'USER': os.environ['DBUSER'],\n        'PASSWORD': os.environ['DBPASSWORD'],\n        'HOST': os.environ['DBHOST'],\n        'PORT': os.environ['DBPORT'],\n    }\n}",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1724,7 +1678,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nCORS_ALLOW_CREDENTIALS = True\nCORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',  \n]\nREST_FRAMEWORK = {\n    'DATETIME_FORMAT': \"%Y-%m-%d\", ",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nCORS_ALLOW_CREDENTIALS = True\nCORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',\n    'http://planetgamesshop.vercel.app',\n    'https://planetgamesshop.vercel.app',\n    'https://dashboard-web-copy-production.up.railway.app',",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1733,7 +1687,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nCORS_ALLOW_CREDENTIALS = True\nCORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',  \n]\nREST_FRAMEWORK = {\n    'DATETIME_FORMAT': \"%Y-%m-%d\", \n}",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nCORS_ALLOW_CREDENTIALS = True\nCORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',\n    'http://planetgamesshop.vercel.app',\n    'https://planetgamesshop.vercel.app',\n    'https://dashboard-web-copy-production.up.railway.app',\n    'https://django-server-production-281d.up.railway.app'",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1742,7 +1696,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\nCORS_ALLOW_CREDENTIALS = True\nCORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',  \n]\nREST_FRAMEWORK = {\n    'DATETIME_FORMAT': \"%Y-%m-%d\", \n}\n# Static files (CSS, JavaScript, Images)",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\nCORS_ALLOW_CREDENTIALS = True\nCORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',\n    'http://planetgamesshop.vercel.app',\n    'https://planetgamesshop.vercel.app',\n    'https://dashboard-web-copy-production.up.railway.app',\n    'https://django-server-production-281d.up.railway.app'\n]",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1751,7 +1705,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "USE_TZ = True\nCORS_ALLOW_CREDENTIALS = True\nCORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',  \n]\nREST_FRAMEWORK = {\n    'DATETIME_FORMAT': \"%Y-%m-%d\", \n}\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/",
+        "peekOfCode": "USE_TZ = True\nCORS_ALLOW_CREDENTIALS = True\nCORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',\n    'http://planetgamesshop.vercel.app',\n    'https://planetgamesshop.vercel.app',\n    'https://dashboard-web-copy-production.up.railway.app',\n    'https://django-server-production-281d.up.railway.app'\n]\nCSRF_TRUSTED_ORIGINS = [",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1760,7 +1714,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "CORS_ALLOW_CREDENTIALS = True\nCORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',  \n]\nREST_FRAMEWORK = {\n    'DATETIME_FORMAT': \"%Y-%m-%d\", \n}\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'",
+        "peekOfCode": "CORS_ALLOW_CREDENTIALS = True\nCORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',\n    'http://planetgamesshop.vercel.app',\n    'https://planetgamesshop.vercel.app',\n    'https://dashboard-web-copy-production.up.railway.app',\n    'https://django-server-production-281d.up.railway.app'\n]\nCSRF_TRUSTED_ORIGINS = [\n    'http://planetgamesshop.vercel.app',",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1769,7 +1723,34 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',  \n]\nREST_FRAMEWORK = {\n    'DATETIME_FORMAT': \"%Y-%m-%d\", \n}\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type",
+        "peekOfCode": "CORS_ALLOWED_ORIGINS = [\n    'http://localhost:3000',\n    'http://planetgamesshop.vercel.app',\n    'https://planetgamesshop.vercel.app',\n    'https://dashboard-web-copy-production.up.railway.app',\n    'https://django-server-production-281d.up.railway.app'\n]\nCSRF_TRUSTED_ORIGINS = [\n    'http://planetgamesshop.vercel.app',\n    'https://planetgamesshop.vercel.app',",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CSRF_TRUSTED_ORIGINS",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "CSRF_TRUSTED_ORIGINS = [\n    'http://planetgamesshop.vercel.app',\n    'https://planetgamesshop.vercel.app',\n    'https://dashboard-web-copy-production.up.railway.app',\n    'https://django-server-production-281d.up.railway.app'\n]\nCORS_ALLOWED_METHODS = [\n    'GET', 'POST', 'DELETE', 'PUT'\n]\nCORS_ALLOW_CREDENTIALS = True",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOWED_METHODS",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "CORS_ALLOWED_METHODS = [\n    'GET', 'POST', 'DELETE', 'PUT'\n]\nCORS_ALLOW_CREDENTIALS = True\nREST_FRAMEWORK = {\n    'DATETIME_FORMAT': \"%Y-%m-%d\", \n}\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\n# Default primary key field type",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_CREDENTIALS",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "CORS_ALLOW_CREDENTIALS = True\nREST_FRAMEWORK = {\n    'DATETIME_FORMAT': \"%Y-%m-%d\", \n}\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1778,16 +1759,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "REST_FRAMEWORK = {\n    'DATETIME_FORMAT': \"%Y-%m-%d\", \n}\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
-        "detail": "backend.core.settings",
-        "documentation": {}
-    },
-    {
-        "label": "STATIC_URL",
-        "kind": 5,
-        "importPath": "backend.core.settings",
-        "description": "backend.core.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DATETIME_FORMAT': \"%Y-%m-%d\", \n}\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1819,6 +1791,15 @@
         "documentation": {}
     },
     {
+        "label": "main",
+        "kind": 2,
+        "importPath": "backend.env.bin.jp",
+        "description": "backend.env.bin.jp",
+        "peekOfCode": "def main():\n    parser = argparse.ArgumentParser()\n    parser.add_argument('expression')\n    parser.add_argument('-f', '--filename',\n                        help=('The filename containing the input data.  '\n                              'If a filename is not given then data is '\n                              'read from stdin.'))\n    parser.add_argument('--ast', action='store_true',\n                        help=('Pretty print the AST, do not search the data.'))\n    args = parser.parse_args()",
+        "detail": "backend.env.bin.jp",
+        "documentation": {}
+    },
+    {
         "label": "Migration",
         "kind": 6,
         "importPath": "backend.order.migrations.0001_initial",
@@ -1828,29 +1809,11 @@
         "documentation": {}
     },
     {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "backend.order.migrations.0002_order_created_at",
-        "description": "backend.order.migrations.0002_order_created_at",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('order', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='order',\n            name='created_at',\n            field=models.DateTimeField(auto_now_add=True, default=django.utils.timezone.now),\n            preserve_default=False,",
-        "detail": "backend.order.migrations.0002_order_created_at",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "backend.order.migrations.0003_order_product",
-        "description": "backend.order.migrations.0003_order_product",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('order', '0002_order_created_at'),\n        ('product', '0003_product_category_alter_product_created_at_review'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='order',\n            name='product',\n            field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, to='product.product'),",
-        "detail": "backend.order.migrations.0003_order_product",
-        "documentation": {}
-    },
-    {
         "label": "OrderAdmin",
         "kind": 6,
         "importPath": "backend.order.admin",
         "description": "backend.order.admin",
-        "peekOfCode": "class OrderAdmin(admin.ModelAdmin):\n    search_fields = ['cleint__full_name', 'client__phone_number', 'price', 'category__name']\nadmin.site.register(Order, OrderAdmin)",
+        "peekOfCode": "class OrderAdmin(admin.ModelAdmin):\n    search_fields = [\n        'client__full_name', \n        'seller__full_name', \n        'seller__phone_number', \n        'client__phone_number', \n        'price', \n        'category__name'\n    ]\n    list_display = ['id', 'client__full_name', 'seller__full_name', 'price', 'product__name']",
         "detail": "backend.order.admin",
         "documentation": {}
     },
@@ -1868,7 +1831,16 @@
         "kind": 6,
         "importPath": "backend.order.models",
         "description": "backend.order.models",
-        "peekOfCode": "class Order(models.Model):\n    price = models.FloatField()\n    client = models.ForeignKey(User, on_delete=models.CASCADE, related_name='client')\n    product = models.ForeignKey(\"product.Product\", on_delete=models.CASCADE)\n    seller = models.ForeignKey(User, on_delete=models.CASCADE, related_name='seller')\n    created_at = models.DateTimeField(auto_now_add=True)",
+        "peekOfCode": "class Order(models.Model):\n    price = models.FloatField()\n    client = models.ForeignKey(User, on_delete=models.CASCADE, limit_choices_to={'user_type':'client'}, related_name='client')\n    product = models.ForeignKey(\"product.Product\", on_delete=models.CASCADE)\n    seller = models.ForeignKey(User, on_delete=models.CASCADE, limit_choices_to={'user_type': 'seller'}, related_name='seller', blank=True)\n    created_at = models.DateTimeField(auto_now_add=True)\n@receiver(post_save, sender=Order)\ndef detect_updated_fields(sender, instance, created,**kwargs):\n    if created:  # Ensure this is not a new instance\n        # Fetch the original instance from the database",
+        "detail": "backend.order.models",
+        "documentation": {}
+    },
+    {
+        "label": "detect_updated_fields",
+        "kind": 2,
+        "importPath": "backend.order.models",
+        "description": "backend.order.models",
+        "peekOfCode": "def detect_updated_fields(sender, instance, created,**kwargs):\n    if created:  # Ensure this is not a new instance\n        # Fetch the original instance from the database\n        room = Room.objects.filter(user_id=instance.client.id)\n        if room.exists():\n            room = room.get()\n            room.status = 'Order Created'\n            room.save()",
         "detail": "backend.order.models",
         "documentation": {}
     },
@@ -1877,7 +1849,7 @@
         "kind": 5,
         "importPath": "backend.order.models",
         "description": "backend.order.models",
-        "peekOfCode": "User = get_user_model()\nclass Order(models.Model):\n    price = models.FloatField()\n    client = models.ForeignKey(User, on_delete=models.CASCADE, related_name='client')\n    product = models.ForeignKey(\"product.Product\", on_delete=models.CASCADE)\n    seller = models.ForeignKey(User, on_delete=models.CASCADE, related_name='seller')\n    created_at = models.DateTimeField(auto_now_add=True)",
+        "peekOfCode": "User = get_user_model()\nclass Order(models.Model):\n    price = models.FloatField()\n    client = models.ForeignKey(User, on_delete=models.CASCADE, limit_choices_to={'user_type':'client'}, related_name='client')\n    product = models.ForeignKey(\"product.Product\", on_delete=models.CASCADE)\n    seller = models.ForeignKey(User, on_delete=models.CASCADE, limit_choices_to={'user_type': 'seller'}, related_name='seller', blank=True)\n    created_at = models.DateTimeField(auto_now_add=True)\n@receiver(post_save, sender=Order)\ndef detect_updated_fields(sender, instance, created,**kwargs):\n    if created:  # Ensure this is not a new instance",
         "detail": "backend.order.models",
         "documentation": {}
     },
@@ -1922,17 +1894,8 @@
         "kind": 6,
         "importPath": "backend.post.migrations.0001_initial",
         "description": "backend.post.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Post',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('data', models.BinaryField()),",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Post',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('media', models.FileField(upload_to='posts/')),",
         "detail": "backend.post.migrations.0001_initial",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "backend.post.migrations.0002_remove_post_data_post_media",
-        "description": "backend.post.migrations.0002_remove_post_data_post_media",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('post', '0001_initial'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='post',\n            name='data',\n        ),\n        migrations.AddField(",
-        "detail": "backend.post.migrations.0002_remove_post_data_post_media",
         "documentation": {}
     },
     {
@@ -1949,7 +1912,7 @@
         "kind": 6,
         "importPath": "backend.post.models",
         "description": "backend.post.models",
-        "peekOfCode": "class Post(models.Model):\n    MEDIA_TYPES = [\n        ('vidoe','vidoe'),\n        ('image','image'),\n    ]\n    media = models.FileField()\n    description = models.TextField()\n    created_at = models.DateTimeField()\n    media_type = models.CharField(max_length=300, choices=MEDIA_TYPES)",
+        "peekOfCode": "class Post(models.Model):\n    MEDIA_TYPES = [\n        ('vidoe','vidoe'),\n        ('image','image'),\n    ]\n    media = models.FileField(upload_to='posts/')\n    description = models.TextField()\n    created_at = models.DateTimeField()\n    media_type = models.CharField(max_length=300, choices=MEDIA_TYPES)",
         "detail": "backend.post.models",
         "documentation": {}
     },
@@ -1994,62 +1957,8 @@
         "kind": 6,
         "importPath": "backend.product.migrations.0001_initial",
         "description": "backend.product.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Category',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=300)),",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Category',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
         "detail": "backend.product.migrations.0001_initial",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "backend.product.migrations.0002_product",
-        "description": "backend.product.migrations.0002_product",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('product', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Product',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('data', models.BinaryField()),",
-        "detail": "backend.product.migrations.0002_product",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "backend.product.migrations.0003_product_category_alter_product_created_at_review",
-        "description": "backend.product.migrations.0003_product_category_alter_product_created_at_review",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('product', '0002_product'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='product',\n            name='category',\n            field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, to='product.category'),",
-        "detail": "backend.product.migrations.0003_product_category_alter_product_created_at_review",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "backend.product.migrations.0004_review_product",
-        "description": "backend.product.migrations.0004_review_product",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('product', '0003_product_category_alter_product_created_at_review'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='review',\n            name='product',\n            field=models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, to='product.product'),\n            preserve_default=False,",
-        "detail": "backend.product.migrations.0004_review_product",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "backend.product.migrations.0005_product_name",
-        "description": "backend.product.migrations.0005_product_name",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('product', '0004_review_product'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='product',\n            name='name',\n            field=models.CharField(default='2 M', max_length=200),\n            preserve_default=False,",
-        "detail": "backend.product.migrations.0005_product_name",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "backend.product.migrations.0006_rename_data_product_image",
-        "description": "backend.product.migrations.0006_rename_data_product_image",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('product', '0005_product_name'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='product',\n            old_name='data',\n            new_name='image',\n        ),",
-        "detail": "backend.product.migrations.0006_rename_data_product_image",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "backend.product.migrations.0007_alter_product_image",
-        "description": "backend.product.migrations.0007_alter_product_image",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('product', '0006_rename_data_product_image'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='product',\n            name='image',\n            field=models.FileField(upload_to=''),\n        ),",
-        "detail": "backend.product.migrations.0007_alter_product_image",
         "documentation": {}
     },
     {
@@ -2066,7 +1975,7 @@
         "kind": 6,
         "importPath": "backend.product.models",
         "description": "backend.product.models",
-        "peekOfCode": "class Category(models.Model):\n    name = models.CharField(max_length=300)\nclass Product(models.Model):\n    image = models.FileField()\n    category = models.ForeignKey(Category, on_delete=models.CASCADE)\n    name = models.CharField(max_length=200)\n    description = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)\n    media_type = models.CharField(max_length=300)\n    price = models.FloatField()",
+        "peekOfCode": "class Category(models.Model):\n    name = models.CharField(max_length=300)\nclass Product(models.Model):\n    image = models.FileField(upload_to=\"products/\")\n    category = models.ForeignKey(Category, on_delete=models.CASCADE)\n    name = models.CharField(max_length=200)\n    description = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)\n    media_type = models.CharField(max_length=300)\n    price = models.FloatField()",
         "detail": "backend.product.models",
         "documentation": {}
     },
@@ -2075,7 +1984,7 @@
         "kind": 6,
         "importPath": "backend.product.models",
         "description": "backend.product.models",
-        "peekOfCode": "class Product(models.Model):\n    image = models.FileField()\n    category = models.ForeignKey(Category, on_delete=models.CASCADE)\n    name = models.CharField(max_length=200)\n    description = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)\n    media_type = models.CharField(max_length=300)\n    price = models.FloatField()\nclass Review(models.Model):\n    STARS_CHOICES = [",
+        "peekOfCode": "class Product(models.Model):\n    image = models.FileField(upload_to=\"products/\")\n    category = models.ForeignKey(Category, on_delete=models.CASCADE)\n    name = models.CharField(max_length=200)\n    description = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)\n    media_type = models.CharField(max_length=300)\n    price = models.FloatField()\nclass Review(models.Model):\n    STARS_CHOICES = [",
         "detail": "backend.product.models",
         "documentation": {}
     },
@@ -2093,7 +2002,7 @@
         "kind": 5,
         "importPath": "backend.product.models",
         "description": "backend.product.models",
-        "peekOfCode": "User = get_user_model()\nclass Category(models.Model):\n    name = models.CharField(max_length=300)\nclass Product(models.Model):\n    image = models.FileField()\n    category = models.ForeignKey(Category, on_delete=models.CASCADE)\n    name = models.CharField(max_length=200)\n    description = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)\n    media_type = models.CharField(max_length=300)",
+        "peekOfCode": "User = get_user_model()\nclass Category(models.Model):\n    name = models.CharField(max_length=300)\nclass Product(models.Model):\n    image = models.FileField(upload_to=\"products/\")\n    category = models.ForeignKey(Category, on_delete=models.CASCADE)\n    name = models.CharField(max_length=200)\n    description = models.TextField()\n    created_at = models.DateTimeField(auto_now_add=True)\n    media_type = models.CharField(max_length=300)",
         "detail": "backend.product.models",
         "documentation": {}
     },
@@ -2147,7 +2056,7 @@
         "kind": 6,
         "importPath": "backend.product.views",
         "description": "backend.product.views",
-        "peekOfCode": "class ProductFilter(FilterSet):\n    category_id = BaseInFilter(field_name='category_id', lookup_expr='in')\n    class Meta:\n        model = Product\n        fields = ['category_id']\nclass ProductListView(generics.ListAPIView):\n    queryset = Product.objects.all()\n    serializer_class = ProductSerializer\n    pagination_class = Pagination\n    filter_backends = [DjangoFilterBackend, filters.OrderingFilter]",
+        "peekOfCode": "class ProductFilter(FilterSet):\n    category_id = BaseInFilter(field_name='category_id', lookup_expr='in')\n    class Meta:\n        model = Product\n        fields = ['category_id']\nclass ProductListView(generics.ListAPIView):\n    queryset = Product.objects.all().order_by('-id')\n    serializer_class = ProductSerializer\n    pagination_class = Pagination\n    filter_backends = [DjangoFilterBackend, filters.OrderingFilter]",
         "detail": "backend.product.views",
         "documentation": {}
     },
@@ -2156,7 +2065,7 @@
         "kind": 6,
         "importPath": "backend.product.views",
         "description": "backend.product.views",
-        "peekOfCode": "class ProductListView(generics.ListAPIView):\n    queryset = Product.objects.all()\n    serializer_class = ProductSerializer\n    pagination_class = Pagination\n    filter_backends = [DjangoFilterBackend, filters.OrderingFilter]\n    filterset_class = ProductFilter\n    ordering_fields = ['price', 'created_at']\nclass CategoryListView(generics.ListAPIView):\n    queryset = Category.objects.all()\n    serializer_class = CategorySerializer",
+        "peekOfCode": "class ProductListView(generics.ListAPIView):\n    queryset = Product.objects.all().order_by('-id')\n    serializer_class = ProductSerializer\n    pagination_class = Pagination\n    filter_backends = [DjangoFilterBackend, filters.OrderingFilter]\n    filterset_class = ProductFilter\n    ordering_fields = ['price', 'created_at']\nclass CategoryListView(generics.ListAPIView):\n    queryset = Category.objects.all()\n    serializer_class = CategorySerializer",
         "detail": "backend.product.views",
         "documentation": {}
     },
@@ -2165,7 +2074,7 @@
         "kind": 6,
         "importPath": "backend.product.views",
         "description": "backend.product.views",
-        "peekOfCode": "class CategoryListView(generics.ListAPIView):\n    queryset = Category.objects.all()\n    serializer_class = CategorySerializer\nclass ReviewListView(generics.ListAPIView):\n    queryset = Review.objects.all()\n    serializer_class = ReviewSerializer\n    pagination_class = Pagination\n    def get_queryset(self):\n        product_id = self.kwargs.get('product_id')\n        if product_id:",
+        "peekOfCode": "class CategoryListView(generics.ListAPIView):\n    queryset = Category.objects.all()\n    serializer_class = CategorySerializer\nclass ReviewListView(generics.ListAPIView):\n    queryset = Review.objects.all().order_by('-id')\n    serializer_class = ReviewSerializer\n    pagination_class = Pagination\n    def get_queryset(self):\n        product_id = self.kwargs.get('product_id')\n        if product_id:",
         "detail": "backend.product.views",
         "documentation": {}
     },
@@ -2174,7 +2083,7 @@
         "kind": 6,
         "importPath": "backend.product.views",
         "description": "backend.product.views",
-        "peekOfCode": "class ReviewListView(generics.ListAPIView):\n    queryset = Review.objects.all()\n    serializer_class = ReviewSerializer\n    pagination_class = Pagination\n    def get_queryset(self):\n        product_id = self.kwargs.get('product_id')\n        if product_id:\n            product = get_object_or_404(Product, id=product_id)\n            return Review.objects.filter(product=product)\n        else:",
+        "peekOfCode": "class ReviewListView(generics.ListAPIView):\n    queryset = Review.objects.all().order_by('-id')\n    serializer_class = ReviewSerializer\n    pagination_class = Pagination\n    def get_queryset(self):\n        product_id = self.kwargs.get('product_id')\n        if product_id:\n            product = get_object_or_404(Product, id=product_id)\n            return Review.objects.filter(product=product)\n        else:",
         "detail": "backend.product.views",
         "documentation": {}
     },

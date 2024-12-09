@@ -10,6 +10,7 @@ import {
 } from "./Icons";
 import { useStateContext } from "@/context/contextProvider";
 import Image from "next/image";
+import AvatarImage from '@/avatar.png'
 
 export const Button = ({ children, onClick, px }) => {
   return (
