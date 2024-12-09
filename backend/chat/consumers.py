@@ -1,3 +1,4 @@
+import jmespath
 import json
 from channels.generic.websocket import AsyncWebsocketConsumer
 from .models import Message, Room
@@ -67,13 +68,16 @@ class ChatConsumer(AsyncWebsocketConsumer):
         return {'message': msg.message, 'id': msg.id, 'sender_id': msg.sender.id if msg.sender else None, 'reciever_id': msg.reciever.id if msg.reciever else None}
     
     def list_messages(self, user_id):
-        messages = Message.objects.filter(Q(sender_id=user_id) | Q(reciever_id=user_id)).order_by('-created_at')
-        room = Room.objects.filter(user_id=user_id).get()
-        if room.status == 'New Message':
-            room.status = 'In progress' 
-        if messages.exists():
-            return list(messages.values('id','message', 'sender_id', 'reciever_id'))
-        return []
+        try:
+            messages = Message.objects.filter(Q(sender_id=user_id) | Q(reciever_id=user_id)).order_by('-created_at')
+            room = Room.objects.filter(user_id=user_id).get()
+            if room.status == 'New Message':
+                room.status = 'In progress' 
+            if messages.exists():
+                return list(messages.values('id','message', 'sender_id', 'reciever_id'))
+            return []
+        except:
+            return []
 
     def get_room(self, room_id):
         room = Room.objects.filter(

@@ -8,7 +8,7 @@ import Image from "next/image";
 import useWebSocket from "@/roupi/messages";
 import { useStateContext } from "@/context/contextProvider";
 import { useRef, useState, useEffect } from "react";
-
+import AvatarImage from '@/avatar.png'
 const Posts = () => {
   const { posts } = useGetPosts();
   console.log(posts)
@@ -41,7 +41,7 @@ const Message: React.FC<MessageProps> = ({ profileImage, message, revers }) => {
     <Image
       width={200}
       height={200}
-        src={profileImage}
+        src={profileImage ? profileImage : AvatarImage}
         alt="Profile"
         className="w-8 h-8 border border-purple-300  border-2 rounded-full object-cover"
         />

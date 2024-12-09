@@ -835,6 +835,23 @@
         "documentation": {}
     },
     {
+        "label": "jmespath",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
+        "label": "exceptions",
+        "importPath": "jmespath",
+        "description": "jmespath",
+        "isExtraImport": true,
+        "detail": "jmespath",
+        "documentation": {}
+    },
+    {
         "label": "AsyncWebsocketConsumer",
         "importPath": "channels.generic.websocket",
         "description": "channels.generic.websocket",
@@ -1052,23 +1069,6 @@
         "description": "pprint",
         "isExtraImport": true,
         "detail": "pprint",
-        "documentation": {}
-    },
-    {
-        "label": "jmespath",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "jmespath",
-        "description": "jmespath",
-        "detail": "jmespath",
-        "documentation": {}
-    },
-    {
-        "label": "exceptions",
-        "importPath": "jmespath",
-        "description": "jmespath",
-        "isExtraImport": true,
-        "detail": "jmespath",
         "documentation": {}
     },
     {
