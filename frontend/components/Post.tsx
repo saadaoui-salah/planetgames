@@ -18,7 +18,7 @@ export const Post = ({image , description, date, is_video}) => {
     </div>
   </div>
   <div className="mt-4">
-    <p className="text-gray-700">
+    <p style={{ whiteSpace: 'pre-line' }} dir='rtl' className="text-gray-700">
      {description}
     </p>
   </div>
