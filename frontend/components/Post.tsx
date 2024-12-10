@@ -1,6 +1,12 @@
 import Logo from "@/public/static/logo.png"
 import Image from "next/image"
 
+const isRTL = (text) => {
+  // Simple heuristic: Check if the first character is within Arabic Unicode range
+  const arabicRegex = /[\u0600-\u06FF]/;
+  return arabicRegex.test(text.trim());
+};
+
 export const Post = ({image , description, date, is_video}) => {
     return (
 <div className="max-w-xl mx-auto p-4 bg-white rounded-lg shadow-md border border-gray-200">
@@ -19,7 +25,18 @@ export const Post = ({image , description, date, is_video}) => {
   </div>
   <div className="mt-4">
     <p style={{ whiteSpace: 'pre-line' }} dir='rtl' className="text-gray-700">
-     {description}
+          {description.split('\n').map((line, index) => ( line ?
+        <div
+          key={index}
+          dir={isRTL(line) ? 'rtl' : 'ltr'}
+          style={{
+            textAlign: isRTL(line) ? 'right' : 'left',
+            margin: '5px 0',
+          }}
+        >
+          {line}
+        </div>: <br/>
+      ))}
     </p>
   </div>
     <div className="mt-4">

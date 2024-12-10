@@ -87,9 +87,9 @@
     const create_message = (message) => {
       let html = `
             <div class="message ${message.sender_id ? '' : 'flex-row-reverse'} flex items-start">
-              <img src="${message.image}" alt="user" class="w-9 h-9 mx-2 rounded-full">
+              <img src="${!message.sender_id ? 'https://planetgamesshop.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.f973ea44.png&w=256&q=75' : message.image ? messgae.image : "https://planetgamesshop.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.2ad4504e.png&w=64&q=75"}" alt="user" class="w-9 h-9 mx-2 border-2 p-1 border-purple-600 rounded-full">
               <div class="message-content bg-blue-100 p-2 rounded-lg text-sm max-w-xs">
-                <p>${message.message}</p>
+                <p class='font-bold'>${message.message}</p>
               </div>
             </div>
           `
@@ -110,7 +110,7 @@
       <div id="chat" class="overflow-y-auto space-y-4 pb-4"></div>
     <div id='room-${id}' class="input-area flex items-center space-x-2 mt-4">
       <textarea onclick="updateRoomStatus('${id}')" id="message" type="text" class="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300" placeholder="Type a message..."></textarea>
-      <button onclick="sendMessage()" class="bg-blue-500 text-white p-2 rounded-lg">Send</button>
+      <button onclick="sendMessage(${id})" class="bg-blue-500 text-white p-2 rounded-lg">Send</button>
     </div>
     ` 
     socket = new WebSocket(`wss://dashboard-web-copy-production.up.railway.app/ws/chat/${id}/`);
@@ -139,12 +139,12 @@
       console.log("WebSocket connection closed.");
     };}
 
-     var sendMessage = () => {
+     var sendMessage = (id) => {
       let message = document.getElementById('message')
       if (socket && socket.readyState === WebSocket.OPEN && message.value){
         socket.send(JSON.stringify({
           msg: message.value,
-          reciever: 3
+          reciever: id
       }))
       message.value = ''
     }
