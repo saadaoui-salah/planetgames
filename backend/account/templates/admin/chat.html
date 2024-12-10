@@ -28,7 +28,7 @@
         </details>
     </div>
   <script>
-    const socketRooms = new WebSocket('ws://127.0.0.1:8001/ws/rooms/');
+    const socketRooms = new WebSocket('wss://dashboard-web-copy-production.up.railway.app/ws/rooms/');
     socketRooms.onopen = () => {
       console.log("WebSocket connection established.");
     };
@@ -113,7 +113,7 @@
       <button onclick="sendMessage()" class="bg-blue-500 text-white p-2 rounded-lg">Send</button>
     </div>
     ` 
-    socket = new WebSocket(`ws://127.0.0.1:8001/ws/chat/${id}/`);
+    socket = new WebSocket(`wss://dashboard-web-copy-production.up.railway.app/ws/chat/${id}/`);
     socket.onopen = () => {
       console.log("WebSocket connection established.");
     };

@@ -14,10 +14,10 @@ export const LoginForm = () => {
         <div className="mb-4">
           <Input
             onChange={(e) => setAuth({ ...auth, username: e.target.value })}
-            label="Username"
+            label="Email"
             type="text"
             value={auth.username}
-            placeholder="username"
+            placeholder="Email"
           />
         </div>
         <div className="mb-6">

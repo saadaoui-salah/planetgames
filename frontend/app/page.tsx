@@ -98,7 +98,8 @@ const Chat = ()=> {
           </div>
             </div>
           </div>
-          </div>)
+          </div>
+          )
 }
 
 export default function Home() {
