@@ -39,7 +39,7 @@
     const update_room = (room) => {
       let html = `
         <li id="${room.id}" onclick="openChat('${room.user_id}', '${room.user__full_name}')" class="flex cursor-pointer justify-between items-center p-2 bg-blue-100 rounded-md">
-          <span>${room.user__full_name}</span>
+          <span class='font-bold'>${room.user__full_name}</span>
         </li>
           `
       let roomElement = document.getElementById(room.id)
@@ -89,7 +89,7 @@
             <div class="message ${message.sender_id ? '' : 'flex-row-reverse'} flex items-start">
               <img src="${!message.sender_id ? 'https://planetgamesshop.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.f973ea44.png&w=256&q=75' : message.image ? messgae.image : "https://planetgamesshop.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.2ad4504e.png&w=64&q=75"}" alt="user" class="w-9 h-9 mx-2 border-2 p-1 border-purple-600 rounded-full">
               <div class="message-content bg-blue-100 p-2 rounded-lg text-sm max-w-xs">
-                <p class='font-bold'>${message.message}</p>
+                <p>${message.message}</p>
               </div>
             </div>
           `

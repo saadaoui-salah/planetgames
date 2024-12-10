@@ -162,13 +162,15 @@ CORS_ALLOWED_ORIGINS = [
     'http://planetgamesshop.vercel.app',
     'https://planetgamesshop.vercel.app',
     'https://dashboard-web-copy-production.up.railway.app',
-    'https://django-server-production-281d.up.railway.app'
+    'https://django-server-production-281d.up.railway.app',
+    'https://www.planetgamesdz.com'
 ]
 CSRF_TRUSTED_ORIGINS = [
     'http://planetgamesshop.vercel.app',
     'https://planetgamesshop.vercel.app',
     'https://dashboard-web-copy-production.up.railway.app',
-    'https://django-server-production-281d.up.railway.app'
+    'https://django-server-production-281d.up.railway.app',
+    'https://www.planetgamesdz.com'
 ]
 
 

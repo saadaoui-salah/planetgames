@@ -5,9 +5,12 @@ import { ProductCard } from "@/components/ProductCard";
 import { Loading } from "@/components/shared/Loading";
 import Head from "next/head";
 import { useEffect, useRef, useState } from "react";
+import { useStateContext } from "@/context/contextProvider";
+import { Chat } from "../page";
 
 
 export default function Products() {
+  const {profile} = useStateContext()
   const productsRef = useRef(null);
   const [filter, setFilter] = useState({
     category_id: [],
@@ -59,6 +62,7 @@ export default function Products() {
           </div>
         </div>
       </main>
+      {profile.id && <Chat/>}
     </>
   );
 }

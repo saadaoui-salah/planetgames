@@ -52,7 +52,7 @@ const Message: React.FC<MessageProps> = ({ profileImage, message, revers }) => {
   );
 };
 
-const Chat = ()=> {
+export const Chat = ()=> {
   const {profile} = useStateContext()
   const msgRef = useRef()
   const chatRef = useRef()
