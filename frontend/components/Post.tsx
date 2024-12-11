@@ -1,5 +1,6 @@
 import Logo from "@/public/static/logo.png"
 import Image from "next/image"
+import { useState } from "react";
 
 export const isRTL = (text) => {
   // Simple heuristic: Check if the first character is within Arabic Unicode range
@@ -8,6 +9,14 @@ export const isRTL = (text) => {
 };
 
 export const Post = ({image , description, date, is_video}) => {
+    const [showMore, setShowMore] = useState(false);
+
+  const MAX_LINES = 3; // Number of lines to show initially
+  const lines = description.split('\n');
+
+  const handleToggle = () => {
+    setShowMore(!showMore);
+  };
     return (
 <div className="max-w-xl mx-auto p-4 bg-white rounded-lg shadow-md border border-gray-200">
   <div className="flex items-center">
@@ -24,20 +33,32 @@ export const Post = ({image , description, date, is_video}) => {
     </div>
   </div>
   <div className="mt-4">
-    <p style={{ whiteSpace: 'pre-line' }} dir='rtl' className="text-gray-700">
-          {description.split('\n').map((line, index) => ( line ?
-        <div
-          key={index}
-          dir={isRTL(line) ? 'rtl' : 'ltr'}
-          style={{
-            textAlign: isRTL(line) ? 'right' : 'left',
-            margin: '5px 0',
-          }}
+      <div dir="rtl" className="text-gray-700">
+      {lines.slice(0, showMore ? lines.length : MAX_LINES).map((line, index) =>
+        line ? (
+          <div
+            key={index}
+            dir={isRTL(line) ? 'rtl' : 'ltr'}
+            style={{
+              textAlign: isRTL(line) ? 'right' : 'left',
+              margin: '5px 0',
+            }}
+          >
+            {line}
+          </div>
+        ) : (
+          <br key={index} />
+        )
+      )}
+      {lines.length > MAX_LINES && (
+           <button
+          onClick={handleToggle}
+          className="text-blue-500 hover:underline mt-2"
         >
-          {line}
-        </div>: <br/>
-      ))}
-    </p>
+          {showMore ? 'عرض أقل' : 'عرض المزيد'}
+        </button>
+      )}
+    </div>
   </div>
     <div className="mt-4">
      {image && !is_video && (<Image 
