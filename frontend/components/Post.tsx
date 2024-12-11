@@ -1,7 +1,7 @@
 import Logo from "@/public/static/logo.png"
 import Image from "next/image"
 
-const isRTL = (text) => {
+export const isRTL = (text) => {
   // Simple heuristic: Check if the first character is within Arabic Unicode range
   const arabicRegex = /[\u0600-\u06FF]/;
   return arabicRegex.test(text.trim());

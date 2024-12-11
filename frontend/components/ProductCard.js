@@ -23,9 +23,9 @@ export const ProductCard = ({
           />
         </div>
         <div className="px-4 py-2">
-          <h2 className="font-bold text-lg text-gray-900">{title}</h2>
+          <h2 className="font-bold text-md text-gray-900">{title}</h2>
           <div className="flex justify-between items-center font-bold text-sm text-gray-400">
-            <p>{rating > 0 ? <Stars num={rating} /> : "Not rated yet"}</p>
+            <Stars num={5}/>
           </div>
           <div className="flex items-center justify-between">
             <div className="flex items-ccenter py-1">

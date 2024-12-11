@@ -127,13 +127,13 @@ export const AuthButtons = () => {
   return (
     <>
       <Link
-        href="login"
+        href="/login"
         className="hover:bg-gradient-to-r from-[#ff80b5] to-[#9089fc]  hover:text-white text-indigo-400 border border-indigo-400 mr-4 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
       >
         Login
       </Link>
       <Link
-        href="signup"
+        href="/signup"
         className="bg-gradient-to-r from-[#ff80b5] to-[#9089fc]  text-white font-bold py-2 px-4 rounded focus:outline-none border border-indigo-400 focus:shadow-outline"
       >
         Sign Up

@@ -6,6 +6,8 @@ from .serializers import ProductSerializer, ReviewSerializer, CategorySerializer
 from rest_framework.pagination import PageNumberPagination
 from django.shortcuts import get_object_or_404
 from django_filters.rest_framework import FilterSet, BaseInFilter
+from rest_framework.exceptions import NotFound
+from rest_framework.response import Response
 
 class Pagination(PageNumberPagination):
     page_size = 10  # Default number of products per page
@@ -28,21 +30,26 @@ class ProductListView(generics.ListAPIView):
     filterset_class = ProductFilter
     ordering_fields = ['price', 'created_at']
 
+    def retrieve(self, request, *args, **kwargs):
+        product_id = kwargs.get('id')
+        try:
+            product = Product.objects.get(id=product_id)
+        except Product.DoesNotExist:
+            raise NotFound("Product not found.")
+        serializer = self.get_serializer(product)
+        return Response(serializer.data)
+
+
+class PDPView(generics.RetrieveAPIView):
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
+
+    def get_object(self):
+        try:
+            return super().get_object()
+        except Product.DoesNotExist:
+            raise NotFound("Product not found.")
 
 class CategoryListView(generics.ListAPIView):
     queryset = Category.objects.all()
     serializer_class = CategorySerializer
-
-
-class ReviewListView(generics.ListAPIView):
-    queryset = Review.objects.all().order_by('-id')
-    serializer_class = ReviewSerializer
-    pagination_class = Pagination
-
-    def get_queryset(self):
-        product_id = self.kwargs.get('product_id')
-        if product_id:
-            product = get_object_or_404(Product, id=product_id)
-            return Review.objects.filter(product=product)
-        else:
-            return Review.objects.all().order_by('-stars')[:10]

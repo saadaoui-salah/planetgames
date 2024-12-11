@@ -12,7 +12,6 @@ const useWebSocket = (url: string, options?: { onMessage?: (data: any) => void; 
     // Connection established
     socket.onopen = () => {
       setIsConnected(true);
-      console.log("WebSocket connection established.");
     };
 
     // Message received
@@ -32,7 +31,6 @@ const useWebSocket = (url: string, options?: { onMessage?: (data: any) => void; 
     // Connection closed
     socket.onclose = () => {
       setIsConnected(false);
-      console.log("WebSocket connection closed.");
     };
 
     return () => {

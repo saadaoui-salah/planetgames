@@ -9,9 +9,10 @@ import useWebSocket from "@/roupi/messages";
 import { useStateContext } from "@/context/contextProvider";
 import { useRef, useState, useEffect } from "react";
 import AvatarImage from '@/avatar.png'
+
+
 const Posts = () => {
   const { posts } = useGetPosts();
-  console.log(posts)
   return (
     <div className="block space-y-10">
       {posts.map((post) => (
@@ -58,7 +59,7 @@ export const Chat = ()=> {
   const chatRef = useRef()
   const chatOpenRef = useRef()
   const [messages, setMessage] = useState<[]>([]) 
-  const {sendMessage} = useWebSocket(`wss://dashboard-web-copy-production.up.railway.app/ws/chat/${profile.id}/`, {
+  const {sendMessage} = useWebSocket(`${process.env.NEXT_PUBLIC_WS_API_URL}/ws/chat/${profile.id}/`, {
     onMessage: (newMessage: object) => setMessage((messages) => [...messages, newMessage]),
     onMessages: (oldMessages: []) => setMessage((messages) =>[...oldMessages, ...messages])  
   })

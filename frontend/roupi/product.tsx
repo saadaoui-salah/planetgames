@@ -18,15 +18,14 @@ export const useGetProducts = (filter: object) => {
   return { products, loading };
 };
 
-
-export const useGetTopProducts = (filter: object) => {
+export const useGetPDP = (id: string) => {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     setLoading(true);
-    useGET('product/',{}).then((res) => {
-      if (res?.results) {
-        setProducts(res?.results);
+    useGET(`product/${id}`, {}).then((res) => {
+      if (res) {
+        setProducts(res);
       }
       setLoading(false);
     });

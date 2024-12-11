@@ -25,7 +25,6 @@ export const useGetOrders = () => {
     useGET('order/list/', {}).then((res: OrderResponse) => {
       if (res.results) {
         setOrders(res.results);
-        console.log(res)
       }
       setLoading(false);
     });

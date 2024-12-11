@@ -9,7 +9,8 @@ User = get_user_model()
 class Order(models.Model):
     price = models.FloatField()
     client = models.ForeignKey(User, on_delete=models.CASCADE, limit_choices_to={'user_type':'client'}, related_name='client')
-    product = models.ForeignKey("product.Product", on_delete=models.CASCADE)
+    product = models.ForeignKey("product.Product", on_delete=models.CASCADE, null=True, blank=True)
+    product_title = models.CharField(max_length=9000, null=True, blank=True)
     seller = models.ForeignKey(User, on_delete=models.CASCADE, limit_choices_to={'user_type': 'seller'}, related_name='seller', blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
 

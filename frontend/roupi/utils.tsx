@@ -10,7 +10,7 @@ export const useGET = async (url: string, conf: { headers?: object; params?: obj
   };
   if (conf?.headers) get.headers = { ...get.headers, ...conf.headers };
 
-  const myUrl = new URL(`${API_URL}/${url}`);
+  const myUrl = new URL(`${process.env.NEXT_PUBLIC_API_URL}/${url}`);
   myUrl.search = new URLSearchParams({
     ...conf?.params,
   }).toString();
@@ -59,7 +59,7 @@ export const usePOST = async (url: string, conf: {
     post.body = JSON.stringify(conf?.data);
   }
 
-  const results = await fetch(`${API_URL}/${url}`, post)
+  const results = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/${url}`, post)
     .then((response) => {
       if (!response.ok) {
         return {
