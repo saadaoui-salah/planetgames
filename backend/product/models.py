@@ -5,6 +5,9 @@ User = get_user_model()
 
 class Category(models.Model):
     name = models.CharField(max_length=300)
+    
+    def __str__(self):
+        return self.name
 
 class Product(models.Model):
     image = models.FileField(upload_to="products/")
@@ -14,6 +17,10 @@ class Product(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     media_type = models.CharField(max_length=300)
     price = models.FloatField()
+
+    def __str__(self):
+        return self.name
+
 
 class Review(models.Model):
     STARS_CHOICES = [
